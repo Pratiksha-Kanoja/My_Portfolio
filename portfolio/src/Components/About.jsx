@@ -25,7 +25,7 @@ const About = () => {
                     <h1>About me</h1>
                     <p>A passionate Full Stack web Developer 🚀 having an experience of building Web applications with
                         JavaScript / ReactJs / Node.js / MongoDB and some other libraries and frameworks</p>
-                    <a href="https://drive.google.com/file/d/1QLu9pUGh78VH9nKg1Kw3YqFrIChbmWdY/view?usp=share_link"><button className='resume'>Resume</button></a>
+                    <a href="https://drive.google.com/file/d/1QLu9pUGh78VH9nKg1Kw3YqFrIChbmWdY/view?usp=sharing"><button className='resume'>Resume</button></a>
 
                     <div className="icons">
                         <a href="https://github.com/Pratiksha-Kanoja">
