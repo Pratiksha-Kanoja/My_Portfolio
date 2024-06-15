@@ -22,7 +22,7 @@ const Contact = () => {
                         <IoMail />
                         <p>pratiksha.kanoja2001@gmail.com</p>
                     </div>
-                    <a href="https://drive.google.com/file/d/1QLu9pUGh78VH9nKg1Kw3YqFrIChbmWdY/view?usp=share_link"><button className='resume'>Resume</button></a>
+                    <a href="https://drive.google.com/file/d/1aoDV-ihhcscT6lvB8wjP3nH-_yc9rR9h/view?usp=share_link"><button className='resume'>Resume</button></a>
 
                     <div className="icons">
                         <a href="https://github.com/Pratiksha-Kanoja">
