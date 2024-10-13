@@ -24,7 +24,7 @@ const About = () => {
           <p className="text-[#8988a9] text-base md:text-lg mt-6">
             A passionate Full Stack web Developer 🚀 having experience in building Web applications with JavaScript, ReactJs, Node.js, MongoDB, and other libraries and frameworks.
           </p>
-          <a href="https://drive.google.com/file/d/1aoDV-ihhcT6lvB8wjP3nH-_yc9rR9h/view?usp=share_link" className="inline-block mt-6">
+          <a href="https://drive.google.com/file/d/1aoDV-ihhcscT6lvB8wjP3nH-_yc9rR9h/view?usp=sharing" className="inline-block mt-6">
             <button className="resume bg-blue-500 text-white h-10 w-[150px] text-lg hover:bg-blue-600 transition-colors duration-200">
               Resume
             </button>
