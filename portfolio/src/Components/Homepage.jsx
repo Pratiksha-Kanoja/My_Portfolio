@@ -8,7 +8,6 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 import ReactTypingEffect from 'react-typing-effect';
 import { IoMenu } from 'react-icons/io5';
 import { motion } from 'framer-motion';
-import Marquee from 'react-fast-marquee';
 
 const Homepage = () => {
     const [isScrolled, setIsScrolled] = useState(false);
