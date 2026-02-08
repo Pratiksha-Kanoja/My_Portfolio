@@ -58,7 +58,7 @@ const About = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.4 }}
               >
-                A passionate Full Stack web Developer 🚀 with extensive experience in building modern web applications using JavaScript, React.js, Node.js, MongoDB, and cutting-edge frameworks. I love creating seamless user experiences and robust backend systems.
+                Full-stack Software Developer with 2+ year of experience building scalable SaaS and AI-powered web applications using React, Node.js, and modern cloud databases, with a proven ability to deliver end-to-end products and optimize performance.
               </motion.p>
 
               {/* Personal Info Cards */}
@@ -95,7 +95,7 @@ const About = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.6 }}
               >
-                <a href="https://drive.google.com/file/d/1cP03A3U19M7G_RlOUsNwWdAg7U1URthu/view?usp=sharing" className="inline-block">
+                <a href="https://drive.google.com/file/d/1a2bZwY9o-T1uwn-vnsBXD0-7lW5dTAoa/view?usp=sharing" className="inline-block">
                   <motion.button 
                     className="bg-gradient-to-r from-gray-700 to-black text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 group"
                     whileHover={{ scale: 1.05 }}
