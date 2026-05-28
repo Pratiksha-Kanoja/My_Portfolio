@@ -5,12 +5,30 @@ import FasterInvitesLogo from '../Img/Faster_invites.png';
 const Experience = () => {
     const experiences = [
         {
+            company: "Ai StackOra",
+            location: "Bangalore, India",
+            roles: [
+                {
+                    title: "Full Stack web developer",
+                    duration: "Mar 2026 - Present",
+                    type: "Full-time",
+                    responsibilities: [
+                        "Founded and developed AI-powered SaaS products including AI presentation tools, ScreenBlur, and FasterInvites.",
+                        "Built all applications from scratch, handling frontend, backend, database architecture,deployment, and production maintenance.",
+                        "Developed ScreenBlur desktop application and Chrome Extension to improve screen privacy and secure sharing workflows.",
+                        "Integrated AI providers including OpenAI GPT, Gemini, and OpenRouter to enable AI-driven automation and content generation.",
+                        "Implemented authentication systems, payment gateway integrations, scalable APIs, and cloud deployment infrastructure across products."
+                    ]
+                }
+            ]
+        },
+        {
             company: "IndianAppGuy Tech PVT LTD",
             location: "Bangalore, India · Remote",
             roles: [
                 {
                     title: "Software Developer",
-                    duration: "Oct 2024 - Present · 1 yr 5 mos",
+                    duration: "Oct 2024 - Mar 2026 · 1 yr 5 mos",
                     type: "Full-time",
                     responsibilities: [
                         "Developed and maintained SaaS platforms (MagicSlides – 1M+ users, MagicForm, AskVideo,TalkingPDF, SheetAI), improving performance and scalability.",
@@ -33,28 +51,6 @@ const Experience = () => {
                         "Created a file compression tool to optimize storage and upload efficiency for the MagicSlides app.",
                         "Developed a Google Doc URL to PPTX converter to streamline document-to-presentation workflows within MagicSlides.",
                         "Developed a text to PPTX converter, enabling seamless text input to presentation slide creation for MagicSlides."
-                    ]
-                }
-            ]
-        },
-         {
-            company: "FasterInvites",
-            location: "Bangalore, India",
-            website: "https://fasterinvites.com",
-            logo: FasterInvitesLogo,
-            roles: [
-                {
-                    title: "Founder & Full-Stack Developer",
-                    duration: "Dec 2025 - Present",
-                    type: "Full-time",
-                    responsibilities: [
-                        "Built and launched an online invitation card platform enabling users to create and customize digital invites, achieving 500+ search impressions and ~30 organic clicks in the first month.",
-                        "Designed and developed full-stack architecture including UI, backend APIs, and database.",
-                        "Implemented responsive design, template customization, and real-time preview features.",
-                        "Deployed and maintained production environment, domain setup, and hosting.",
-                        "Implemented SEO strategies including metadata optimization, sitemap generation, and search indexing to improve visibility.",
-                        "Created and managed blog content to drive organic traffic and user engagement.",
-                        "Managed end-to-end lifecycle including design, development, testing, and launch."
                     ]
                 }
             ]
