@@ -1,5 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import AI_Presentations from '../Img/AI_Presentations.png';
+import ScreenBlur from '../Img/ScreenBlur.png';
+import FasterInvites from '../Img/Faster_invites.png';
 import Apple from '../Img/Apple.png';
 import YouTube from '../Img/YouTube.png';
 import HM from '../Img/HM.png';
@@ -8,6 +11,33 @@ import Gap from '../Img/Gap.png';
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
+    { 
+        image: AI_Presentations, 
+        title: "AI Presentations", 
+        description: "AI-powered presentation maker that turns topics, documents, and URLs into polished, export-ready slide decks in seconds.", 
+        stack: "Next.js, Node.js, OpenAI, Vercel", 
+        link: "https://www.aipresentations.app/", 
+        category: "AI SaaS",
+        color: "from-purple-500 to-purple-700"
+    },
+    { 
+        image: ScreenBlur, 
+        title: "ScreenBlur", 
+        description: "Real-time privacy tool with a desktop app and Chrome extension to blur sensitive content during screen sharing and recordings.", 
+        stack: "Next.js, Electron, Chrome Extension", 
+        link: "https://www.screenblur.app/", 
+        category: "Privacy Tool",
+        color: "from-blue-500 to-blue-700"
+    },
+    { 
+        image: FasterInvites, 
+        title: "Faster Invites", 
+        description: "Free online invitation maker with 70+ customizable templates for weddings, birthdays, and every celebration.", 
+        stack: "Next.js, React, Tailwind CSS", 
+        link: "https://www.fasterinvites.com/", 
+        category: "SaaS",
+        color: "from-pink-500 to-pink-700"
+    },
     { 
         image: Apple, 
         title: "Apple Clone", 
@@ -38,24 +68,24 @@ const projects = [
         category: "E-commerce",
         color: "from-pink-500 to-pink-700"
     },
-    { 
-        image: Paying_Guest, 
-        title: "Paying Guest Portal", 
-        description: "Booking platform for PG accommodations with admin panel and user management system.", 
-        stack: "HTML, CSS, JavaScript, MySQL, PHP", 
-        github: "https://github.com/Pratiksha-Kanoja/Paying-Guest-Website",
-        category: "Full Stack",
-        color: "from-green-500 to-green-700"
-    },
-    { 
-        image: Gap, 
-        title: "Gap Clone", 
-        description: "Fashion e-commerce website with product catalog, filtering, and responsive design.", 
-        stack: "React.js, Node.js, MongoDB", 
-        github: "https://github.com/Pratiksha-Kanoja/Gap-Webpage",
-        category: "E-commerce",
-        color: "from-blue-500 to-blue-700"
-    }
+    // { 
+    //     image: Paying_Guest, 
+    //     title: "Paying Guest Portal", 
+    //     description: "Booking platform for PG accommodations with admin panel and user management system.", 
+    //     stack: "HTML, CSS, JavaScript, MySQL, PHP", 
+    //     github: "https://github.com/Pratiksha-Kanoja/Paying-Guest-Website",
+    //     category: "Full Stack",
+    //     color: "from-green-500 to-green-700"
+    // },
+    // { 
+    //     image: Gap, 
+    //     title: "Gap Clone", 
+    //     description: "Fashion e-commerce website with product catalog, filtering, and responsive design.", 
+    //     stack: "React.js, Node.js, MongoDB", 
+    //     github: "https://github.com/Pratiksha-Kanoja/Gap-Webpage",
+    //     category: "E-commerce",
+    //     color: "from-blue-500 to-blue-700"
+    // }
 ];
 
 const Projects = () => {
@@ -98,7 +128,7 @@ const Projects = () => {
                                     <img 
                                         src={project.image} 
                                         alt={project.title} 
-                                        className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" 
+                                        className="w-full h-full object-cover object-top group-hover:scale-110 transition-transform duration-500" 
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                                     
