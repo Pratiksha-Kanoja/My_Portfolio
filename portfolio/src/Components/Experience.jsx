@@ -1,6 +1,5 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import FasterInvitesLogo from '../Img/Faster_invites.png';
 
 const Experience = () => {
     const experiences = [

@@ -6,8 +6,6 @@ import FasterInvites from '../Img/Faster_invites.png';
 import Apple from '../Img/Apple.png';
 import YouTube from '../Img/YouTube.png';
 import HM from '../Img/HM.png';
-import Paying_Guest from '../Img/Paying_Guest.png';
-import Gap from '../Img/Gap.png';
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const projects = [
