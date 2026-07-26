@@ -3,24 +3,24 @@ import { motion } from 'framer-motion';
 
 const Experience = () => {
     const experiences = [
-        {
-            company: "Ai StackOra",
-            location: "Bangalore, India",
-            roles: [
-                {
-                    title: "Full Stack web developer",
-                    duration: "Mar 2026 - Present",
-                    type: "Full-time",
-                    responsibilities: [
-                        "Founded and developed AI-powered SaaS products including AI presentation tools, ScreenBlur, and FasterInvites.",
-                        "Built all applications from scratch, handling frontend, backend, database architecture,deployment, and production maintenance.",
-                        "Developed ScreenBlur desktop application and Chrome Extension to improve screen privacy and secure sharing workflows.",
-                        "Integrated AI providers including OpenAI GPT, Gemini, and OpenRouter to enable AI-driven automation and content generation.",
-                        "Implemented authentication systems, payment gateway integrations, scalable APIs, and cloud deployment infrastructure across products."
-                    ]
-                }
-            ]
-        },
+        // {
+        //     company: "Ai StackOra",
+        //     location: "Bangalore, India",
+        //     roles: [
+        //         {
+        //             title: "Full Stack web developer",
+        //             duration: "Mar 2026 - Present",
+        //             type: "Full-time",
+        //             responsibilities: [
+        //                 "Founded and developed AI-powered SaaS products including AI presentation tools, ScreenBlur, and FasterInvites.",
+        //                 "Built all applications from scratch, handling frontend, backend, database architecture,deployment, and production maintenance.",
+        //                 "Developed ScreenBlur desktop application and Chrome Extension to improve screen privacy and secure sharing workflows.",
+        //                 "Integrated AI providers including OpenAI GPT, Gemini, and OpenRouter to enable AI-driven automation and content generation.",
+        //                 "Implemented authentication systems, payment gateway integrations, scalable APIs, and cloud deployment infrastructure across products."
+        //             ]
+        //         }
+        //     ]
+        // },
         {
             company: "IndianAppGuy Tech PVT LTD",
             location: "Bangalore, India · Remote",
