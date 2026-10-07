@@ -95,7 +95,7 @@ const About = () => {
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.6 }}
               >
-                <a href="https://drive.google.com/file/d/1SQJG8ge0PLwQFjNA1AnvaEmif9GSORSu/view?usp=sharing" className="inline-block">
+                <a href="https://drive.google.com/file/d/1LyVIj0mNRnU1pJvc3ii6huStidXSiIpd/view?usp=sharing" className="inline-block">
                   <motion.button 
                     className="bg-gradient-to-r from-gray-700 to-black text-white px-8 py-3 rounded-full font-semibold shadow-lg hover:shadow-xl transition-all duration-300 flex items-center gap-2 group"
                     whileHover={{ scale: 1.05 }}
